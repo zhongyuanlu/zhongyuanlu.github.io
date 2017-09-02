@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--[if lte IE 9]>
+    <style>
+      body { background-color: #3498db;}
+      .ie-warning {text-align: center;height:50px; width:700px; position: absolute; top:60%; left:50%;margin: 0px 0 0 -350px; background-color:#eee; border-radius:4px; behavior: url(/pie/PIE.htc);}
+      p { font-size:15px; padding-left:30px; padding-right:30px; }
+      .circle { position:absolute; height:250px; width:250px; background-color:#eee; top:30%; left:50%; border-radius:125px; margin:-125px 0 0 -125px;behavior: url(/pie/PIE.htc);}
+    </style>
+    <div class="circle"><image src='/assets/mol.png' style="position:absolute;top:50%;left:50%;z-index:101;margin:-110px 0px 0px -110px;" width="220" /></div>
+    <div class="ie-warning"><p>Please <b>*do not*</b> use IE &le; IE 9. Go to <a href="/en/">this page</a> continue visiting. Or <a href="/message.html">leave us a message</a>.</p>
+    </div>
+  <![endif]-->
+  <meta charset="utf-8">
+  <title>Prof. Lu's Group</title>
+  <meta name="description" content="Prof. Zhong-Yuan Lu's Research Group">
+  <meta name="author" content="Shirui" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="icon" href="/assets/fav.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/assets/fav.ico" type="image/x-icon" />
+  <!--[if gt IE 9]><!-->
+  <link rel="stylesheet" media="screen" href="/css/index.css">
+  <link rel="stylesheet" href="/css/jquery.fancybox.min.css" />
+  <style>
+    .fancybox-slide--iframe .fancybox-content {
+	min-height : 600px;
+    }
+  </style>
+  <!--<![endif]-->
+</head>
+<body>
+
+<!-- count particles -->
+<!-- div class="count-particles">
+  <span class="js-count-particles">**</span> particles
+</div -->
+
+<!-- particles.js container -->
+<!--[if gt IE 9]><!-->
+<div id="particles-js"></div>
+<!--<![endif]-->
+
+<!-- panel -->
+<!--[if gt IE 9]><!-->
+<div class="panel">
+<div class="circle">
+<image src='/assets/mol.png' style="position:absolute;top:50%;left:50%;z-index:101;margin:-110px 0px 0px -110px;" width="220" />
+</div>
+<div class="visitl">
+<li><a href="/en/" target="_blank">Visit Us</a></li>
+</div>
+<div class="visitr">
+<li><a data-fancybox="iframe" data-src="/message.html" data-type="iframe" href="javascript:;">Contact Us</a></li>
+</div>
+</div>
+<!--<![endif]-->
+
+
+<!-- scripts -->
+
+<!--[if gt IE 9]><!-->
+<script src="/js/particles.js"></script>
+<script src="/js/app.js"></script>
+<script src="/js/jquery.js"></script>
+<script src="/js/jquery.fancybox.min.js"></script>
+<script>
+$("[data-fancybox]").fancybox({
+    iframe: {
+        scrolling: 'yes', //'no'//'auto'
+        preload: false
+    }
+});
+</script>
+<!--<![endif]-->
+</body>
+</html>
