@@ -39,7 +39,7 @@ body {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	background: #f0f0f0 url(../images/wall.jpg) repeat 0px 0px;
+	background: #f0f0f0 url(/assets/alumni/wall.jpg) repeat 0px 0px;
 }
 
 .gr-wall-main {
@@ -52,7 +52,7 @@ body {
 	left: 0;
 	height: 30%;
 	width: 100%;
-	background: url(../images/floor.jpg) repeat 0px 0px;
+	background: url(/assets/alumni/floor.jpg) repeat 0px 0px;
 }
 
 .gr-gallery figure {
@@ -139,7 +139,7 @@ body {
 .gr-gallery nav span {
 	width: 90px;
 	height: 100%;
-	background: url(../images/steps.png);
+	background: url(/assets/alumni/steps.png);
 	float: left;
 	text-indent: -100%;
 	overflow: hidden;
