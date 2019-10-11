@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Shirui">
     <link rel="icon" href="/assets/fav.ico" type="image/x-icon" />
+
     <title>Prof. Lu's Group</title>
 
     <!-- Bootstrap Core CSS -->
@@ -20,26 +21,24 @@
         padding-top: 70px;
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     }
-	.paging-nav {
-  text-align: right;
-  padding-top: 2px;
-}
+    @keyframes highlight {
+    0% {
+        background: #f60;
+    }
+    100% {
+        background: none;
+    }
+    }
 
-.paging-nav a {
-  margin: auto 1px;
-  text-decoration: none;
-  display: inline-block;
-  padding: 1px 7px;
-  background: #91b9e6;
-  color: white;
-  border-radius: 3px;
-}
-
-.paging-nav .selected-page {
-  background: #187ed5;
-  font-weight: bold;
-}
-
+    div:target {
+        animation: highlight 2.5s;
+    }
+    img {
+        margin-top:10px;
+    }
+    dl {
+        margin-top:15px;
+    }
     </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -77,6 +76,7 @@
                     </li>
                     <li>
                         <a href="/en/projects">Projects</a>
+                    </li>
 		    <li>
 			<a href="/en/members/zhongyuan-lu">Contact</a>
 		    </li>
@@ -94,123 +94,623 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12 text-center">
-            <h1><img alt="Bootstrap Image Preview" src="/assets/mol.png" width="100" />
-                Soft Matter & Molecular Simulations</h1>
-		<h3>Prof. Lu's Group</h3>
-                <address>
-                    <strong>State Key Laboratory of Supramolecular Structure and Materials<br>Institute of Theoretical Chemistry<br>Jilin University</strong><br />Liu Tiao Road 2#<br />Changchun, 130021, China<br /> <abbr title="Email">E:</abbr>luzhy@jlu.edu.cn
-                </address>
-            </div>
-        </div>
-        <!-- /.row -->
-
-    </div>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <div class="carousel slide" id="carousel-225550">
-                <ol class="carousel-indicators">
-                    <li class="active" data-slide-to="0" data-target="#carousel-225550">
-                    </li>
-                    <li data-slide-to="1" data-target="#carousel-225550">
-                    </li>
-					<li data-slide-to="2" data-target="#carousel-225550">
-                    </li>
-                    <!--<li data-slide-to="2" data-target="#carousel-225550">
-                    </li>-->
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img alt="Carousel Bootstrap First" src="/en/photos/1.jpg" />
-                    </div>
-                    <div class="item">
-                        <img alt="Carousel Bootstrap Second" src="/en/photos/2.jpg" />
-                    </div>
-					<div class="item">
-                        <img alt="Carousel Bootstrap Third" src="/en/photos/3.jpg" />
-                    </div>
-                    <!--<div class="item">
-                        <img alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg" />
-                    </div>-->
-                </div> <a class="left carousel-control" href="#carousel-225550" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-225550" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            <div class="row">
+                <div class="col-md-12">
+                <h1>Professors</h1>
+                </div>
             </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6" id='zhongyuan-lu'>
+                <div class='row' style="padding: 5px;">
+                <div class="col-md-4">
+                    <a href="/en/members/zhongyuan-lu"><img alt="" src="/en/members/zhongyuan-lu/pictures/small.png" class="img-circle" width=140 /></a>
+                </div>
+                <div class="col-md-8">
+                    <dl>
+                        <dt style='margin-top:35px;'>
+                            Prof. Zhong-Yuan Lu
+                        </dt>
+                        <dd>
+                            <abbr title="Email">E:</abbr> luzhy@jlu.edu.cn
+                        </dd>
+                        <dd>Researcher ID: <a href="http://www.researcherid.com/rid/G-8269-2011">G-8269-2011</a></dd>
+                    </dl>
+                </div>
+                </div>
+                </div>
+                <div class="col-md-6" id='hujun-qian'>
+                <div class='row' style="padding: 5px;">
+                <div class="col-md-4">
+                    <a href="/en/members/hujun-qian"><img alt="" src="/en/members/hujun-qian/pictures/small.png" class="img-circle" width=140 /></a>
+                </div>
+                <div class="col-md-8">
+                    <dl>
+                        <dt style='margin-top:35px;'>
+                            Prof. Hu-Jun Qian
+                        </dt>
+                        <dd>
+                            <abbr title="Email">E:</abbr> hjqian@jlu.edu.cn
+                        </dd>
+                        <dd>Researcher ID: <a href="http://www.researcherid.com/rid/A-1683-2009">A-1683-2009</a></dd>
+                    </dl>
+                </div>
+                </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-6" id='huanyu-zhao'>
+                <div class='row' style="padding: 5px;">
+                <div class="col-md-4">
+                    <a href="/en/members/huanyu-zhao"><img alt="" src="/en/members/huanyu-zhao/pictures/small.png" class="img-circle" width=140 /></a>
+                </div>
+                <div class="col-md-8">
+                    <dl>
+                        <dt style='margin-top:35px;'>
+                            Assoc. Prof. Huan-Yu Zhao
+                        </dt>
+                        <dd>
+                            <abbr title="Email">E:</abbr> zhaohuanyu@jlu.edu.cn
+                        </dd>
+                        <dd>Researcher ID: <a href="http://www.researcherid.com/rid/L-4429-2017">L-4429-2017</a></dd>
+                    </dl>
+                </div>
+                </div>
+                </div>
+                <div class="col-md-6" id='yanchun-li'>
+                    <div class="row" style="padding: 5px;">
+                        <div class="col-md-4">
+                            <a href="/en/members/yanchun-li"><img alt="" src="/en/members/yanchun-li/pictures/small.jpg" class="img-circle" width=140 /></a>
+                        </div>
+                        <div class="col-md-8">
+                            <dl style='margin-top:35px;'>
+                                <dt>
+                                   Assist. Prof. Yan-Chun Li
+                                </dt>
+                                <dd>
+                                    <abbr title="Email">E:</abbr> liyanchun@jlu.edu.cn
+                                </dd>
+                                <dd>
+                                    Researcher ID: <a href="http://www.researcherid.com/rid/G-4689-2013">G-4689-2013</a>
+                                </dd>
+                            </dl>
+                        </div>
+						
+						
+                    </div>
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                <h1>Postdocs</h1>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6" id="huimin-gao"> 
+                    <div class="row" style="padding:5px;" >
+                        <div class="col-md-4">
+                            <img alt="Dr. Huimin Gao" src="/en/members/huimin-gao/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Dr. Hui-Min Gao</dt>
+                                <dd>
+                                    04/2015-present Postdoc
+                                </dd>
+                                <dt>
+                                    Research areas:
+                                </dt>
+                                <dd>
+                                    Multiscale simulation study on the synthesis, surface modification and self-assembly of Au-Nanoparticles.
+                                </dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Phone">P:</abbr> +86 13943173206</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                <h1>Students</h1>
+                </div>
+            </div>
+            <hr>
+            <div class="row"> <!-- 2 students a row -->
+                <div class="col-md-6" id="shujia-li"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="Dr. Shujia Li" src="/en/members/shujia-li/pictures/small.JPG" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>M.Sc. Shu-Jia Li</dt>
+                                <dd>09/2015-present PhD student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Simulation study of glass trasition of polymers</dd>
+                                <dd>Simulation study of dynamics and structure properties of nanorod in polymer nanocomposites</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> shujiajlu@163.com</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="jianbo-wu">
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="Dr. Jianbo Wu" src="/en/members/jianbo-wu/pictures/small.png" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>M.Sc. Jian-Bo Wu</dt>
+                                <dd>09/2015-present PhD student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Simulation study of supramolecules/polymer self-assembly via reversible bond.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> wujianbo@nxu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- 2 students a row -->
+            <br>
+            <br>
+            <div class="row"> <!-- 2 students a row -->
+                <div class="col-md-6" id="xiangmeng-jia"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="Dr. Xiangmeng Jia" src="/en/members/xiangmeng-jia/pictures/small.png" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>M.Sc. Xiang-Meng Jia</dt>
+                                <dd>09/2018-present PhD student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Multiscale simulations of complex polymer systems</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> jiaxm14@mails.jlu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+				<div class="row"> <!-- 2 students a row -->
+                <div class="col-md-6" id="jiyuan-xing"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Jiyuan Xing" src="/en/members/jiyuan-xing/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>M.Sc. Ji-Yuan Xing</dt>
+                                <dd>09/2018-present PhD student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Computational Simulation Study of Supramolecular Interface Polymerization.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> xingjiyuanls@163.com</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- 2 students a row -->
+            <br>
+            <div class="row"> <!-- 2 students a row -->
+                <div class="col-md-6" id="meiting-li"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="Dr. Meiting Li" src="/en/members/meiting-li/pictures/small.png" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Mei-Ting Li</dt>
+                                <dd>09/2016-present PhD student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Multifunctional drug - loaded nanoparticles for cancer treatment</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> mtli16@mails.jlu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-md-6" id="bingyu-li">
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="Dr. Bingyu Li" src="/en/members/bingyu-li/pictures/small.png" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Bing-Yu Li</dt>
+                                <dd>09/2016-present PhD student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Computer simulation study of self-assembly of polymer grafted nanoparticles</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> libingyubetty@sina.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- 2 students a row -->
+            <br>
+            <div class="row"> <!-- 2 students a row -->
+                <div class="col-md-6" id="duo-xu"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="Dr. Duo Xu" src="/en/members/duo-xu/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Duo Xu</dt>
+                                <dd>09/2017-present PhD student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>External-field controlled self-assembly in polymer system</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> xuduo918@126.com</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="linxiuzi-yu">
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Linxiuzi Yu" src="/en/members/linxiuzi-yu/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Lin-Xiu-Zi Yu</dt>
+                                <dd>09/2016-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Dynamics and structure properties of polymer/nanoparticle composites under equilibrium condition</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> xiu54321@qq.com</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- 2 students a row -->
+            <br>
+            <div class="row"> <!-- 2 students a row -->
+                <div class="col-md-6" id="wenfeng-lin"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Wenfeng Lin" src="/en/members/wenfeng-lin/pictures/small.png" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Wen-Feng Lin</dt>
+                                <dd>09/2016-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Synthesis of single - stranded nano - pellets and their effects on the mechanical properties of polymer chains.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> linwf16@mails.jiu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="kuo-zhang">
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Kuo Zhang" src="/en/members/kuo-zhang/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Kuo Zhang</dt>
+                                <dd>09/2016-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Self-assembly of Block Copolymer.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> jluzhangkuo@163.com</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- 2 students a row -->
+            <br>
+            <div class="row"> <!-- 2 students a row -->
+                <div class="col-md-6" id="rui-shi"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <a href="http://www.shirui.me" target="_blank"><img alt="Dr. Rui Shi" src="/en/members/rui-shi/pictures/small.jpg" class="img-circle" width=140 /></a>
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Rui Shi</dt>
+                                <dd>09/2015-present PhD student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Self-assembly of nanoparticles in polymer matrix.</dd>
+                                <dd>Mechanical behavior polymer nanoparticles composites.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> shirui816@gmail.com</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>     
+                <div class="col-md-6" id="xi-yang"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="Dr. Xi Yang" src="/en/members/xi-yang/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Xi Yang</dt>
+                                <dd>09/2015-present PhD student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>The thermodynamics of structure formation in soft matter systems is investigated using generic coarse-grained models combined with appropriate enhanced sampling methods (e.g. Wang-Landau Monte Carlo).</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> yangqian1209@mails.jlu.edu.cn, yangxijlu@foxmail.com</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+				<br>
+		        <div class="col-md-6" id="sumin-ma">
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Sumin-Ma" src="/en/members/sumin-ma/pictures/small.png" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Su-Min Ma</dt>
+                                <dd>09/2017-present Master student</dd>
+                                <dt>Research areas:</dt>
+								<dd>Studying the Interaction of Copolymers with Lipid Bilayer Using Coarse-Grained Molecular Dynamics Simulations.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr>  masm17@mails.jlu.edu.cn </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="yueyuan-zhang"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Yueyuan-Zhang" src="/en/members/yueyuan-zhang/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Yue-Yuan Zhang</dt>
+                                <dd>09/2017-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>The structure and dynamics properties of linear polystyrene chains and cross-linked polystyrene NPs.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> zhyuan_0815@163.com</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+			</div> <!-- 2 students a row -->
+            <br>
+            <div class="row"> <!-- 2 students a row -->
+                <div class="col-md-6" id="niboqia-zhang">
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Niboqia-Zhang" src="/en/members/niboqia-zhang/pictures/small.png" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>NiBoQia-Zhang</dt>
+                                <dd>09/2017-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Self-assembly of nanorod.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> niboqiazhang666@163.com</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="he-zhang"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. He-Zhang" src="/en/members/he-zhang/pictures/small.png" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>He Zhang</dt>
+                                <dd>09/2017-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Self-assembly of Block Copolymer Based on Solvent Selectivity Synthesis of SCNP Globules.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> zhanghe17@mails.jlu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+			</div> <!-- 2 students a row -->
+            <br>
+            <div class="row"> <!-- 2 students a row -->
+                <div class="col-md-6" id="yudou-yan">
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Yudou-Yan" src="/en/members/yudou-yan/pictures/small.png" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Yu-Dou Yan</dt>
+                                <dd>09/2017-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Polymerization Induced Self - assembly (PISA) of Diblock Copolymers.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> yanyd17@mails.jlu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="haiyan-weng"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Haiyan-Weng" src="/en/members/haiyan-weng/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Hai-Yan Weng</dt>
+                                <dd>09/2018-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Polymerization induced liquid crystal formation.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> 1527942545@qq.com</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+			</div> <!-- 2 students a row -->
+            <br>
+            <div class="row"> <!-- 2 students a row -->
+				<div class="col-md-6" id="chufeng-qi">
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Chufeng-Qi" src="/en/members/chufeng-qi/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Chu-Feng Qi</dt>
+                                <dd>09/2018-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Synthesis covalent organic frameworkes.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> qicf18@mails.jlu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="youlu-liu"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Youlu-Liu" src="/en/members/youlu-liu/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>You-Lu Liu</dt>
+                                <dd>09/2018-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Microstructure of polymer and liquid crystal complex.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> ylliu18@mails.jlu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+			</div> <!-- 2 students a row -->
+            <br>
+            <div class="row"> <!-- 2 students a row -->
+				<div class="col-md-6" id="jundong-zhong">
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Jundong-Zhong" src="/en/members/jundong-zhong/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Jun-Dong Zhong</dt>
+                                <dd>09/2018-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>the process of bimodal distributed polymer chains grafted on nanoparticles, via grafting-to strategy.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> zhongjd18@mails.jlu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="zhao-qian"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Zhao-Qian" src="/en/members/zhao-qian/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Zhao Qian</dt>
+                                <dd>09/2018-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>The molecular dynamics simulations about the film formation process of polymeric nanocomposites (PNCs) during solvent evaporation.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> qianzhao18@mails.jlu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+			</div> <!-- 2 students a row -->
+            <br>
+            <div class="row"> <!-- 2 students a row -->
+                 <div class="col-md-6" id="fengrui-xu">
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Fengrui-Xu" src="/en/members/fengrui-xu/pictures/small.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Feng-Rui Xu</dt>
+                                <dd>09/2018-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd></dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> xufr18@mails.jlu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="wenqi-tang"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Wenqi-Tang" src="/en/members/zhao-qian/pictures/pic-wenqi-tang.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Wenqi-Tang</dt>
+                                <dd>09/2019-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>Synthesis and application of Covalent Organic Framworks (COFs).</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> wqtang19@mails.jlu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+			</div> <!-- 2 students a row -->
+            </div>
+			<br>
+            <div class="row"> <!-- 2 students a row -->
+                 <div class="col-md-6" id="yuting-sun">
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Yuting-Sun" src="/en/members/fengrui-xu/pictures/pic-yuting-sun.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Yuting-Sun</dt>
+                                <dd>09/2019-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd></dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> sunyt19@mails.jlu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="lei-zhang"> 
+                    <div class="row" style="padding:5px;">
+                        <div class="col-md-4">
+                            <img alt="M.S. Lei-Zhang" src="/en/members/zhao-qian/pictures/pic-lei-zhang.jpg" class="img-circle" width=140 />
+                        </div>
+                        <div class="col-md-8">
+                            <dl>
+                                <dt>Lei-Zhang</dt>
+                                <dd>09/2019-present Master student</dd>
+                                <dt>Research areas:</dt>
+                                <dd>The formation of colloidal unimolecular polymer (CUP) particles from single polymer strands.</dd>
+                                <dt>Contact Info:</dt><dd><abbr title="Email">E:</abbr> leizhang19@mails.jlu.edu.cn</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+			</div> <!-- 2 students a row -->
         </div>
     </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-        <h1>Recent Activities</h1>
-            <table id="paging" class="table table-condensed table-striped">
-			<thead>
-			</thead>
-				<tbody>
-				<tr>
-				<td>5/30/2019</td>
-				<td>Si-Min Kong and Sheng-Fang Lv received their Master Degree.</td>
-				</tr>
-				<tr>
-				<td>12/21/2018</td>
-				<td>Kai-Xin Ren and Jing Xu received their Master Degree.</td>
-				</tr>
-				<tr>
-				<td>5/31/2018</td>
-				<td>Congratulations to Dan Xu for her Ph.D. and Ji-Yuan Xing for her Master Degree.</td>
-				</tr>
-				<tr>
-				<td>3/22/2018</td>
-				<td>Congratulations to Dr. Hui-Min Gao for finishing the postdoctoral work in Prof. Lu's group.</td>
-				</tr>
-				<tr>
-				<td>11/29/2017</td>
-				<td>Guisheng Jiao and Tao Chen received their Ph.D. and Xiangmeng Jia received his Master Degree.</td>
-				</tr>
-				<tr>
-				<td>06/07/2017</td>
-                <td>
-                    The doctoral dissertation defence of Mr. Han-Wen Pei.
-				</td>
-				</tr>
-                <tr>
-				<td>05/05-05/07/2017</td>
-				<td>
-                    The first seminar about Self-Assembling Simulation Method and Application was successfully held.
-                </td>
-				</tr>
-                <tr>
-				<td>10/26-10/29/2016</td>
-				<td>
-                    Professor Jayant Kumar Singh from Indian Institute of Technology has been invited to visit our group.
-                </td></tr>
-                <tr>
-				<td>10/14-10/15/2016</td>
-				<td>
-                    The first GALAMOST short-term seminar was held in Changchun Institute of Applied Chemistry, Chinese Academy of Sciences.
-                </td></tr>
-				</tbody>
-            </table>
-        </div>
-    </div><br/><br/>
 </div>
 
     <!-- /.container -->
 
     <!-- jQuery Version 1.11.1 -->
-	<script type="text/javascript" src="/js/jquery.js"></script>
-	<script type="text/javascript" src="/js/jquery-ui-min.js"></script>
-	<script type="text/javascript" src="/js/paging.js"></script>
-<script type="text/javascript">
-            $(document).ready(function() {
-                $('#paging').paging({limit:5});
-            });
-        </script>
+    <script src="/js/jquery.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="/js/bootstrap.min.js"></script>
+    <script>
+        // The function actually applying the offset
+        function offsetAnchor() {
+            if(location.hash.length !== 0) {
+                //window.scrollTo(window.scrollX, window.scrollY - 100)
+                 $("html, body").animate({scrollTop:$(location.hash).offset().top-100}, 'slow');
+            }
+        }
+
+        // This will capture hash changes while on the page
+        window.addEventListener("hashchange", offsetAnchor);
+
+        // This is here so that when you enter the page with a hash,
+        // it can provide the offset in that case too. Having a timeout
+        // seems necessary to allow the browser to jump to the anchor first.
+        window.setTimeout(offsetAnchor, 1); // The delay of 1 is arbitrary and may not always work right (although it did in my testing).
+    </script>
 
 </body>
 
